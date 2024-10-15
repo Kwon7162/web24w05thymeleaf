@@ -1,14 +1,14 @@
 package kr.ac.kumoh.s20210084.web24w05thymeleaf.repository
 
-import kr.ac.kumoh.s20210084.web24w05thymeleaf.model.Song
+import kr.ac.kumoh.s20210084.web24w05thymeleaf.model.song
 import org.springframework.stereotype.Repository
 
 @Repository
 class SongRepository {
     protected val songs = listOf(
-        Song(1, "Supernova", "aespa"),
-        Song(2, "별별별", "NMIXX"),
-        Song(3, "odoriko", "vaundy"),
+        song(1, "Supernova", "aespa"),
+        song(2, "별별별", "NMIXX"),
+        song(3, "odoriko", "vaundy"),
     )
 
     val songSize: Int
